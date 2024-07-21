@@ -13,7 +13,8 @@ import static org.assertj.core.api.AssertionsForClassTypes.assertThatThrownBy;
 
 @Slf4j
 @SpringBootTest
-@Import(AspectV1.class)
+// @Import(AspectV1.class)
+@Import(AspectV2.class)
 public class AopTest {
     @Autowired
     OrderService orderService;
