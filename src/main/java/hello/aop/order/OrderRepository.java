@@ -1,4 +1,4 @@
-package com.hello.aop.order;
+package hello.aop.order;
 
 
 import lombok.extern.slf4j.Slf4j;

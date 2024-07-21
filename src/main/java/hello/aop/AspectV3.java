@@ -1,4 +1,4 @@
-package com.hello.aop;
+package hello.aop;
 
 import lombok.extern.slf4j.Slf4j;
 import org.aspectj.lang.ProceedingJoinPoint;
@@ -10,7 +10,7 @@ import org.aspectj.lang.annotation.Pointcut;
 @Aspect
 public class AspectV3 {
     //hello.aop.order 패키지와 하위 패키지
-    @Pointcut("execution(* com.hello.aop.order..*(..))") //pointcut expression
+    @Pointcut("execution(* hello.aop.order..*(..))") //pointcut expression
     public void allOrder(){}
     //클래스 이름 패턴이 *Service
     @Pointcut("execution(* *..*Service.*(..))")

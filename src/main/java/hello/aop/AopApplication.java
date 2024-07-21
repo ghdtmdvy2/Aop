@@ -1,4 +1,4 @@
-package com.hello.aop;
+package hello.aop;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
